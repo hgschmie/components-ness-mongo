@@ -15,12 +15,12 @@
  */
 package com.nesscomputing.mongo;
 
+import com.mongodb.MongoURI;
+
 import org.skife.config.Config;
 import org.skife.config.Default;
 import org.skife.config.DefaultNull;
 import org.skife.config.TimeSpan;
-
-import com.mongodb.MongoURI;
 
 /**
  * Configure an Mongo writer for a given object type to an Mongo table.

@@ -17,13 +17,13 @@ package com.nesscomputing.mongo;
 
 import java.util.UUID;
 
-
-import org.joda.time.DateTime;
-
 import com.google.inject.AbstractModule;
 import com.google.inject.Scopes;
+
 import com.nesscomputing.mongo.BSONEncodingTransformers.BsonReadableInstantTransformer;
 import com.nesscomputing.mongo.BSONEncodingTransformers.BsonUuidTransformer;
+
+import org.joda.time.DateTime;
 
 /**
  * Basic mongo glue.

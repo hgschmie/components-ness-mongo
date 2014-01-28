@@ -17,10 +17,9 @@ package com.nesscomputing.mongo;
 
 import java.util.UUID;
 
+import com.nesscomputing.mongo.BSONEncodingTransformers.BsonUuidTransformer;
 
 import org.junit.Before;
-
-import com.nesscomputing.mongo.BSONEncodingTransformers.BsonUuidTransformer;
 
 public class TestBsonUuidTransformer extends AbstractTestBSONTransformers<UUID, String>
 {

@@ -17,9 +17,6 @@ package com.nesscomputing.mongo;
 
 import java.util.Map;
 
-import org.bson.BSON;
-import org.bson.Transformer;
-
 import com.google.common.base.Preconditions;
 import com.google.inject.Binder;
 import com.google.inject.Inject;
@@ -28,6 +25,9 @@ import com.google.inject.binder.LinkedBindingBuilder;
 import com.google.inject.multibindings.MapBinder;
 import com.google.inject.name.Named;
 import com.google.inject.name.Names;
+
+import org.bson.BSON;
+import org.bson.Transformer;
 
 /**
  * Bind new Transformers into the BSON converter used by Mongo. This is not the most optimal conversion from/to BSON but

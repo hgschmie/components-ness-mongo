@@ -26,9 +26,6 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import javax.annotation.Nullable;
 
-import org.skife.config.TimeSpan;
-import org.weakref.jmx.Managed;
-
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Function;
 import com.google.common.base.Preconditions;
@@ -40,7 +37,11 @@ import com.mongodb.DBObject;
 import com.mongodb.Mongo;
 import com.mongodb.WriteConcern;
 import com.mongodb.WriteResult;
+
 import com.nesscomputing.logging.Log;
+
+import org.skife.config.TimeSpan;
+import org.weakref.jmx.Managed;
 
 /**
  * Write objects into a Mongo collection. Do local buffering and bursting into the collection.

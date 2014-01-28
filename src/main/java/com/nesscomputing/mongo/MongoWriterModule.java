@@ -17,9 +17,6 @@ package com.nesscomputing.mongo;
 
 import static java.lang.String.format;
 
-import org.apache.commons.lang3.StringUtils;
-import org.weakref.jmx.guice.MBeanModule;
-
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableMap;
 import com.google.inject.AbstractModule;
@@ -30,10 +27,14 @@ import com.google.inject.Provider;
 import com.google.inject.Scopes;
 import com.google.inject.name.Named;
 import com.google.inject.name.Names;
+
 import com.nesscomputing.config.ConfigProvider;
 import com.nesscomputing.lifecycle.LifecycleStage;
 import com.nesscomputing.lifecycle.guice.AbstractLifecycleProvider;
 import com.nesscomputing.lifecycle.guice.LifecycleAction;
+
+import org.apache.commons.lang3.StringUtils;
+import org.weakref.jmx.guice.MBeanModule;
 /**
  * Defines a new Mongo writer. Multiple modules can be installed for writing to multiple collections.
  */

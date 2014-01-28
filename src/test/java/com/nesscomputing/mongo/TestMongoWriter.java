@@ -18,14 +18,14 @@ package com.nesscomputing.mongo;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.skife.config.TimeSpan;
-
 import com.google.common.collect.Lists;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 import com.mongodb.MongoURI;
+
+import org.junit.Assert;
+import org.junit.Test;
+import org.skife.config.TimeSpan;
 
 public class TestMongoWriter
 {

@@ -18,10 +18,10 @@ package com.nesscomputing.mongo;
 import java.util.Date;
 import java.util.UUID;
 
+import com.google.common.base.Preconditions;
+
 import org.bson.Transformer;
 import org.joda.time.ReadableInstant;
-
-import com.google.common.base.Preconditions;
 
 @SuppressWarnings("PMD.MissingStaticMethodInNonInstantiatableClass")
 final class BSONEncodingTransformers

@@ -17,12 +17,11 @@ package com.nesscomputing.mongo;
 
 import java.util.Date;
 
+import com.nesscomputing.mongo.BSONEncodingTransformers.BsonReadableInstantTransformer;
 
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.junit.Before;
-
-import com.nesscomputing.mongo.BSONEncodingTransformers.BsonReadableInstantTransformer;
 
 public class TestBsonReadableInstantTransformer extends AbstractTestBSONTransformers<DateTime, Date>
 {

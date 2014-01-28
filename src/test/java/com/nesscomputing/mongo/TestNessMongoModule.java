@@ -18,19 +18,17 @@ package com.nesscomputing.mongo;
 import java.util.Map;
 import java.util.UUID;
 
-import org.bson.Transformer;
-import org.joda.time.DateTime;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-
 import com.google.inject.Guice;
 import com.google.inject.Inject;
 import com.google.inject.Injector;
 import com.google.inject.Stage;
 import com.google.inject.name.Named;
-import com.nesscomputing.mongo.BSONTransformerBinder;
-import com.nesscomputing.mongo.NessMongoModule;
+
+import org.bson.Transformer;
+import org.joda.time.DateTime;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
 public class TestNessMongoModule
 {
